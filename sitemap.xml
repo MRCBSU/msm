@@ -70,6 +70,9 @@
     <loc>https://chjackson.github.io/msm/reference/hmodel.object.html</loc>
   </url>
   <url>
+    <loc>https://chjackson.github.io/msm/reference/hmodel2list.html</loc>
+  </url>
+  <url>
     <loc>https://chjackson.github.io/msm/reference/index.html</loc>
   </url>
   <url>
@@ -191,6 +194,18 @@
   </url>
   <url>
     <loc>https://chjackson.github.io/msm/reference/surface.msm.html</loc>
+  </url>
+  <url>
+    <loc>https://chjackson.github.io/msm/reference/tidy.msm.est.html</loc>
+  </url>
+  <url>
+    <loc>https://chjackson.github.io/msm/reference/tidy.msm.estbystate.html</loc>
+  </url>
+  <url>
+    <loc>https://chjackson.github.io/msm/reference/tidy.msm.html</loc>
+  </url>
+  <url>
+    <loc>https://chjackson.github.io/msm/reference/tidy.msm.prevalence.html</loc>
   </url>
   <url>
     <loc>https://chjackson.github.io/msm/reference/tnorm.html</loc>
