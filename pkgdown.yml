@@ -2,7 +2,7 @@ pandoc: 3.1.11
 pkgdown: 2.1.0
 pkgdown_sha: ~
 articles: {}
-last_built: 2024-08-21T17:20Z
+last_built: 2024-09-07T23:39Z
 urls:
   reference: https://chjackson.github.io/msm/reference
   article: https://chjackson.github.io/msm/articles
