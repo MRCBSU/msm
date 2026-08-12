@@ -115,10 +115,10 @@ pearson.msm(
 
 - next.obstime:
 
-  This is a vector of length `x$data$n` (the number of observations used
-  in the model fit) giving the time to the next *scheduled* observation
-  following each time point. This is only used when times to death are
-  known exactly.
+  This is a vector of length `nrow(model.frame(x))` (the number of
+  observations used in the model fit) giving the time to the next
+  *scheduled* observation following each time point. This is only used
+  when times to death are known exactly.
 
   For individuals who died (entered an absorbing state) before the next
   scheduled observation, and the time of death is known exactly,
@@ -301,6 +301,7 @@ Andrew Titman <a.titman@lancaster.ac.uk>, Chris Jackson
 ## Examples
 
 ``` r
+
 psor.q <- rbind(c(0,0.1,0,0),c(0,0,0.1,0),c(0,0,0,0.1),c(0,0,0,0))
 psor.msm <- msm(state ~ months, subject=ptnum, data=psor,
                 qmatrix = psor.q, covariates = ~ollwsdrt+hieffusn,

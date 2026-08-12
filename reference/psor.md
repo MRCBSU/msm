@@ -10,15 +10,15 @@ psoriatic arthritis (PsA) clinic from 305 patients. The rows are grouped
 by patient number and ordered by examination time. Each row represents
 an examination and contains additional covariates.
 
-|            |             |                                                         |
-|------------|-------------|---------------------------------------------------------|
-| `ptnum`    | (numeric)   | Patient identification number                           |
-| `months`   | (numeric)   | Examination time in months                              |
-| `state`    | (numeric)   | Clinical state of PsA. Patients in states 1, 2, 3 and 4 |
-|            |             | have 0, 1 to 4, 5 to 9 and 10 or more damaged joints,   |
-|            |             | respectively.                                           |
-| `hieffusn` | (numeric)   | Presence of five or more effusions                      |
-| `ollwsdrt` | (character) | Erythrocyte sedimentation rate of less than 15 mm/h     |
+|  |  |  |
+|----|----|----|
+| `ptnum` | (numeric) | Patient identification number |
+| `months` | (numeric) | Examination time in months |
+| `state` | (numeric) | Clinical state of PsA. Patients in states 1, 2, 3 and 4 |
+|  |  | have 0, 1 to 4, 5 to 9 and 10 or more damaged joints, |
+|  |  | respectively. |
+| `hieffusn` | (numeric) | Presence of five or more effusions |
+| `ollwsdrt` | (character) | Erythrocyte sedimentation rate of less than 15 mm/h |
 
 ## References
 
@@ -29,6 +29,7 @@ arthritis: role of time-varying clinical indicators. J. Rheumatol.
 ## Examples
 
 ``` r
+
 ## Four-state progression-only model with high effusion and low
 ## sedimentation rate as covariates on the progression rates.  High
 ## effusion is assumed to have the same effect on the 1-2, 2-3, and 3-4
